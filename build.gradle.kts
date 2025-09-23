@@ -1,19 +1,15 @@
 plugins {
-    id("java")
+    // keep root mostly empty; manage common config here if needed later
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
-
-repositories {
-    mavenCentral()
+allprojects {
+    repositories {
+        mavenCentral()
+    }
 }
 
-dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
+subprojects {
+    // place shared configurations here later (e.g., java toolchain)
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
+
