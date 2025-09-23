@@ -149,6 +149,7 @@ class Student{
     public void setMarks(int marks) { this.marks = marks; }
 
 
+    //Override the inbuilt toString method to show a more readable version
     @Override
     public String toString(){
         return "ID: " +id+ ", Name: " +name+ ", Marks: " +marks;
