@@ -11,6 +11,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/apps" />
             <option value="$PROJECT_DIR$/apps/calculator" />
+            <option value="$PROJECT_DIR$/apps/java-notes" />
+            <option value="$PROJECT_DIR$/apps/lms" />
+            <option value="$PROJECT_DIR$/apps/student-record-management" />
           </set>
         </option>
       </GradleProjectSettings>
