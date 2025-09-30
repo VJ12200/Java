@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/apps" />
+            <option value="$PROJECT_DIR$/apps/ToDo-GUI" />
             <option value="$PROJECT_DIR$/apps/bank-account-simulation" />
             <option value="$PROJECT_DIR$/apps/calculator" />
             <option value="$PROJECT_DIR$/apps/java-notes" />
