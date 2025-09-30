@@ -13,7 +13,7 @@ public class Account {
         this.accountNo = accountNo;
         this.holder = holder;
         balance = deposit;
-        //Why are we inistialising it to empty array list
+        //Storing transaction objects inside an Array List to avoid NPE
         this.transactionHistory = new ArrayList<>();
         addTransaction("INTITIAL DEPOSIT", deposit);
     }

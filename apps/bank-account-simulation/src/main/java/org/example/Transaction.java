@@ -19,8 +19,11 @@ public class Transaction {
     }
 
     @Override
+    //Custom toString
+    //Date format
     public String toString(){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        //Formatted String
         return String.format("| %-20s | %-10s | %10.2f | %15.2f |",
                 sdf.format(timestamp), type, amount, balanceAfterTransaction);
     }

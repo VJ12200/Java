@@ -93,7 +93,6 @@ public class Main {
         }
     }
 
-    // Helper method for withdrawing money
     private static void handleWithdrawal(Scanner scanner, Account account) {
         try {
             System.out.print("Enter amount to withdraw: $");
